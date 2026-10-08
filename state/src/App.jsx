@@ -9,7 +9,9 @@ function App() {
 
   const onButtonClick = (color) => () => {
     setBackgroundColor(color);
-    setCount(count + 1);
+    if (backgroundColor !== color) {
+       setCount(count + 1);
+    }
   };
 
   return (
