@@ -1,6 +1,23 @@
 import { useState } from 'react';
 import './App.css';
 
+
+/*
+//Person ne fait pas partie de cet APP.. Il s'agit juste d'un assignment de
+//la leçon "more on state" et j'ai utiliser cet App juste pour afficher Person sur le 
+//local Server
+//(voir assignment dans le fichier Person.jsx
+
+import Person from './Person.jsx'
+
+function App() {
+  return ( 
+  <Person />
+  );
+}
+*/
+
+ 
 const COLORS = ['pink', 'green', 'blue', 'yellow', 'purple'];
 
 function App() {
